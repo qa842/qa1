@@ -6,3 +6,4 @@ dist: xenial
 script:
 - docker run alpine ls
 - df -h
+- cat /proc/cpuinfo
