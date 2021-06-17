@@ -14,3 +14,19 @@ jobs:
       - build=1
     - env:
       - build=2
+    - env:
+      - build=3
+    - env:
+      - build=4
+    - env:
+      - build=5
+    - env:
+      - build=6
+    - env:
+      - build=7
+    - env:
+      - build=8
+    - env:
+      - build=9
+    - env:
+      - build=10
