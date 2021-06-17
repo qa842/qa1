@@ -7,3 +7,10 @@ script:
 - docker run alpine ls
 - df -h
 - cat /proc/cpuinfo
+
+jobs:
+  include:
+    - env:
+      - build=1
+    - env:
+      - build=2
