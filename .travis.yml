@@ -4,7 +4,7 @@ arch:
 dist: xenial
 
 script:
-- docker run alpine ls
+- docker run alpine df -h
 - df -h
 - cat /proc/cpuinfo
 
