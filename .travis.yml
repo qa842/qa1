@@ -1,7 +1,8 @@
 arch:
 - arm64
 
-dist: bionic
+dist: xenial
+language: bash
 
 script:
 - docker run alpine df -h
