@@ -1,7 +1,7 @@
 arch:
 - arm64
 
-dist: xenial
+dist: bionic
 language: bash
 
 script:
