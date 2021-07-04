@@ -1,7 +1,7 @@
 arch:
 - arm64
 
-dist: xenial
+dist: focal
 
 script:
 - docker run alpine df -h
